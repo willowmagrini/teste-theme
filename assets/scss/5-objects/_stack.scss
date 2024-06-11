@@ -1,0 +1,11 @@
+.stack {
+    @include stack($gap--medium);
+
+    &--large {
+        @include stack($gap--large);
+    }
+
+    &--small {
+        @include stack($gap--small);
+    }
+}
